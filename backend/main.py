@@ -1,30 +1,24 @@
-from fastapi import FastAPI
-from database import engine, Base
-from routers import auth, notes
 import logging
+from fastapi import FastAPI
+from contextlib import asynccontextmanager
+from database import engine, Base
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# Initialize FastAPI app
-app = FastAPI(title="Secure Notes API", version="1.0.0")
 
-# Create database tables (ensure models are imported in database.py)
-Base.metadata.create_all(bind=engine)
-
-# Include routers
-app.include_router(auth.router)
-app.include_router(notes.router)
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    logger.info("✅ Database connected successfully!")
+    yield  # Continue running the app
+    logger.info("🛑 Shutting down the application...")
 
 
-# Startup event
-@app.on_event("startup")
-async def startup_event():
-    logger.info("🚀 Application is starting up...")
+# Initialize FastAPI app with lifespan event handler
+app = FastAPI(lifespan=lifespan)
 
 
-# Root route
 @app.get("/")
-def root():
-    return {"message": "Welcome to the Secure Notes API!"}
+def read_root():
+    return {"message": "Welcome to the API"}
