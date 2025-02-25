@@ -37,10 +37,10 @@ locknote/
 
 The **primary aim** of LockNote is to create a secure, modern, and lightweight note-taking application with a **strong focus on cybersecurity**. Key objectives include:
 
-✅ **End-to-End Security**: Implement robust authentication and secure data storage.
-✅ **Seamless User Experience**: A clean, responsive, and fast UI built with Next.js & TailwindCSS.
-✅ **Scalability**: Designed to handle large volumes of notes efficiently.
-✅ **Cybersecurity Best Practices**: Protect user data from vulnerabilities such as SQL injection, XSS, and CSRF attacks.
+- ✅ **End-to-End Security**: Implement robust authentication and secure data storage.
+- ✅ **Seamless User Experience**: A clean, responsive, and fast UI built with Next.js & TailwindCSS.
+- ✅ **Scalability**: Designed to handle large volumes of notes efficiently.
+- ✅ **Cybersecurity Best Practices**: Protect user data from vulnerabilities such as SQL injection, XSS, and CSRF attacks.
 
 ---
 
