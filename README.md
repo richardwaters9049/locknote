@@ -59,10 +59,10 @@ Upon completion, this project will provide users with:
 
 Security is at the core of LockNote. Here’s how it integrates cybersecurity principles:
 
-- **Authentication & Authorization** 🔑: JWT-based authentication ensures secure access control.
-- **Data Encryption** 🔐: Notes are stored securely in PostgreSQL with encryption techniques.
-- **Protection Against Attacks** 🛡️: Implementing CSRF protection, XSS mitigation, and secure API endpoints.
-- **Environment Variables** 📦: Sensitive data is stored securely using `.env` files.
+- **🔑 Authentication & Authorization** : JWT-based authentication ensures secure access control.
+- **🔐 Data Encryption** : Notes are stored securely in PostgreSQL with encryption techniques.
+- **🛡️ Protection Against Attacks** : Implementing CSRF protection, XSS mitigation, and secure API endpoints.
+- **📦 Environment Variables** : Sensitive data is stored securely using `.env` files.
 
 This ensures that **LockNote is a safe and reliable** application for storing sensitive notes securely. 🔏
 
