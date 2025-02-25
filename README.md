@@ -184,19 +184,3 @@ Contributions are welcome! To contribute:
 4. Submit a pull request 📥
 
 ---
-
-## 🏆 Credits
-
-Developed with ❤️ by **Richy** and the CyberS team. 🚀
-
----
-
-## 📜 Licence
-
-This project is licensed under the **MIT License**. See `LICENSE` for details.
-
----
-
-## 🌟 Support & Feedback
-
-If you find this project useful, please ⭐ **star** this repo! Have feedback? Open an issue or reach out! 📨
