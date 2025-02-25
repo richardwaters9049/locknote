@@ -1,4 +1,4 @@
-# LockNote 🛡️ - A Secure Note-Taking App
+# LockNote 🔒 🗒️ - A Secure Note-Taking App
 
 Welcome to **LockNote**, a secure and modern note-taking application designed with **cybersecurity** in mind. Built with **FastAPI** for the backend and **Next.js** with **TailwindCSS** for the frontend, this project aims to provide a highly secure, efficient, and user-friendly platform for storing and managing notes. 📝🔒
 
