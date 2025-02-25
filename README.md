@@ -2,13 +2,17 @@
 
 Welcome to **LockNote**, a secure and modern note-taking application designed with **cybersecurity** in mind. Built with **FastAPI** for the backend and **Next.js** with **TailwindCSS** for the frontend, this project aims to provide a highly secure, efficient, and user-friendly platform for storing and managing notes. 📝🔒
 
+In an era where data breaches and cyber threats are increasingly common, LockNote provides a secure and efficient way to store and manage sensitive information. This project is a full-stack web application designed to offer encrypted note-taking capabilities, ensuring that users' private data remains confidential. By leveraging modern authentication methods, encryption techniques, and a robust backend architecture, LockNote serves as a practical cybersecurity-focused tool for individuals and organisations seeking to enhance their data security.
+
+With an emphasis on privacy, security, and user experience, LockNote integrates FastAPI for a high-performance backend and Next.js with TypeScript for a sleek, modern frontend. This project not only showcases best practices in secure web development but also serves as an educational resource for those interested in cybersecurity, encryption, and secure application design.
+
 ---
 
 ## 📂 Project Structure
 
 ```
 locknote/
-├── backend/              # FastAPI backend
+├── backend/             # FastAPI backend
 │   ├── main.py          # Entry point for FastAPI
 │   ├── database.py      # Database configuration (PostgreSQL)
 │   ├── models.py        # SQLAlchemy models
